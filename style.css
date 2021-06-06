@@ -1,0 +1,39 @@
+/* Обнуляем отступы */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Задаем фон */
+body {
+    background-color: #C2AD57;
+}
+/* Работаем с контейнером
+выравниваем по центру */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+/* Устанавливаем параметры картинки */
+.img {
+    height: 100%;
+    width: 100%;
+}
+/* Работаем с карточкой
+задаем максимальную ширину, закругляем края, задаем тень, отступы */
+.card {
+    max-width: 600px;
+    padding: 16px;
+    background-color: #ffffff;
+    margin: 16px;
+    box-shadow: 5px 5px 15px black;
+    border-radius: 10px;
+}
+/* Задаем отступы на кнопке */
+.btn {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
